@@ -43,7 +43,12 @@ print(banner)
 with open('youtube_channel_info.txt') as f:
     for line in f:
         line = line.strip()
-     
+            if not line or line.startswith('~~'):
+            continue
+        if not line.startswith('https:'):
+          
+            print(f'')
+        else:
             grab(line)
             
 if 'temp.txt' in os.listdir():
