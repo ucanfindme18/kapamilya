@@ -40,7 +40,7 @@ jobs:
       
       - name: Main
         run: |
-          autorun.bat
+          C:\Windows\System32\cmd.exe autorun.bat
         
       - name: git add
         run: |
