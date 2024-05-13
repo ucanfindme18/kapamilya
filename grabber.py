@@ -10,7 +10,7 @@ if 'win' in sys.platform:
     windows = True
 
 def grab(url):
-    response = requests.get(url, timeout=15).text
+    response = requests.get(url, timeout=30).text
     if '.m3u8' not in response:
         #response = requests.get(url).text
         if '.m3u8' not in response:
@@ -43,16 +43,7 @@ print(banner)
 with open('youtube_channel_info.txt') as f:
     for line in f:
         line = line.strip()
-        if not line or line.startswith('~~'):
-            continue
-        if not line.startswith('https:'):
-            line = line.split('|')
-            ch_name = line[0].strip()
-            grp_title = line[1].strip().title()
-            tvg_logo = line[2].strip()
-            tvg_id = line[3].strip()
-            print(f'')
-        else:
+     
             grab(line)
             
 if 'temp.txt' in os.listdir():
