@@ -1,9 +1,9 @@
-~~ DO NOT EDIT THE FIRST 2 LINES	
+~~ DO NOT EDIT THE FIRST 2 LINES
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
- | | |
-https://www.youtube.com/c/abscbnentertainment/live
 
+Kapamilya Channel | Philippines | https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Kapamilya_Online_Live_Logo_2020.svg/2560px-Kapamilya_Online_Live_Logo_2020.svg.png |
+https://www.youtube.com/c/abscbnentertainment/live
 
 
 
