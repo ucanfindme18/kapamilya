@@ -46,7 +46,7 @@ jobs:
       - name: git add
         run: |
           git add -A
-          
+          ls -la
           
       - name: commit & push
         run: |
